@@ -1,6 +1,6 @@
 {
   "name": "appkit-firebase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Firebase library for Appkit",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
