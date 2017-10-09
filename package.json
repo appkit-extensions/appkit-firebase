@@ -1,0 +1,32 @@
+{
+  "name": "appkit-firebase",
+  "version": "1.0.0",
+  "description": "Firebase library for Appkit",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appkit-extensions/appkit-firebase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appkit-extensions/appkit-firebase/issues"
+  },
+  "homepage": "https://github.com/appkit-extensions/appkit-firebase#readme",
+  "engines": {
+    "appkit": "^1.0.0"
+  },
+  "appkit": {
+    "libs": [
+      {
+        "name": "Firebase",
+        "script": "index.js"
+      }
+    ]
+  },
+  "dependencies": {
+    "firebase": "^4.5.0"
+  }
+}
